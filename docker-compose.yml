@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  docs:
+    build: .
+    image: 'rembg'
+    container_name: rembg
+    restart: unless-stopped
+    ports:
+      - '5100:5100'
