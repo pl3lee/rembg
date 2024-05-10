@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  docs:
+  rembg:
     build: .
     image: 'rembg'
     container_name: rembg
